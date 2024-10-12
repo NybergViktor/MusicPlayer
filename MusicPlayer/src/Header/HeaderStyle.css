@@ -1,11 +1,31 @@
 .headerContainer {
   height: 5rem;
   width: 100%;
-  background-color: aqua;
+  background-color: #333;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
-  border: 2px solid red;
+.music-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.music-nav-item {
+  font-size: 1rem;
+}
+
+.music-nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.music-nav-link:hover {
+  background-color: #555;
 }

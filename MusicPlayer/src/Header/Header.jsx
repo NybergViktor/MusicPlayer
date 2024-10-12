@@ -1,12 +1,27 @@
-// dropdown
-// konto kommer senare
-//
 import "./HeaderStyle.css";
 
 const Header = () => {
   return (
     <div className="headerContainer">
-      <p>Detta är min Header</p>
+      <nav className="music-nav">
+        <ul className="music-nav-list">
+          <li className="music-nav-item">
+            <a href="#" className="music-nav-link">
+              Browse
+            </a>
+          </li>
+          <li className="music-nav-item">
+            <a href="#" className="music-nav-link">
+              My Songs
+            </a>
+          </li>
+          <li className="music-nav-item">
+            <a href="#" className="music-nav-link">
+              About
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };
